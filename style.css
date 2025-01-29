@@ -69,16 +69,16 @@ ul li{
     font-size: 17px;
     padding: 12px 8px 12px 50px;
     user-select: none;
-    cursor: ;
+    cursor: pointer;
     position: relative;
 }
-ul li ::before{
+ul li::before{
     content: '';
     position: absolute;
     height: 28px;
     width: 28px;
     border-radius: 50%;
-    background-image: url();
+    background-image: url(Gallery/Unchecked.jpeg);
     background-size: cover;
     background-position: center;
     top: 12px;
@@ -91,7 +91,7 @@ ul li.checked{
 
 }
 ul li.checked::before{
-    background-image: url();
+    background-image: url(Gallery/A-checked.jpeg);
 }
 ul li span{
     position: absolute;
